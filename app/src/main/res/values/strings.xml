@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SMARTPHONES DATABASE</string>
+    <string name="action_edit">EDIT</string>
+
+    <string name="delete_menu">DELETE SMARTPHONE</string>
+    <string name="action_delete">DELETE SMARTPHONE</string>
+    <string name="action_add">ADD</string>
+    <string name="no_smartphones">No smartphones in database</string>
+    <string name="title_for_second_activity">TELEPHONE EDITION</string>
+    <string name="string">string</string>
+
+    <string name="manufacturer">Manufacturer</string>
+    <string name="model">Model</string>
+    <string name="version">Android version</string>
+    <string name="www_string">WWW</string>
+    <string name="www_button">WWW</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="save_button">Save</string>
+    <string name="error">Fill all fields!</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:shrinkColumns="*"
+    android:stretchColumns="2">
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:id="@+id/manufacturer_text"
+            android:text="@string/manufacturer">
+        </TextView>
+        <EditText
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:text=""
+            android:ems="10"
+            android:layout_height="wrap_content"
+            android:id="@+id/manufacturer_edit">
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/model_text"
+            android:textSize="18dp"
+            android:text="@string/model">
+        </TextView>
+        <EditText
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:text=""
+            android:ems="10"
+            android:layout_height="wrap_content"
+            android:id="@+id/model_edit">
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:id="@+id/row3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/android_text"
+            android:text="@string/version">
+        </TextView>
+        <EditText
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:text=""
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:id="@+id/android_edit">
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:id="@+id/row4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/www_text"
+            android:text="@string/www_string">
+        </TextView>
+        <EditText
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:text=""
+            android:layout_height="wrap_content"
+            android:id="@+id/www_edit">
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:id="@+id/row_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:text="@string/www_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/www_button" />
+
+        <Button
+            android:text="@string/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel_button" />
+
+        <Button
+            android:text="@string/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/save_button" />
+
+    </TableRow>
+</TableLayout>
